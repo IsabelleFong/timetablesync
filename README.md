@@ -72,6 +72,9 @@ pip install -r requirements.txt
 ![](./img/calendar-event.png)
 
 
+5. Set Microsoft Outlook as your default calendar
+
+
 ## Languages, Libraries and Applications Used
 1. Python (Libraries: ``requests``, ``Beautiful Soup``, ``ics``, ``pytz``, ``datetime``)
 2. Script Editor (``AppleScript``)
