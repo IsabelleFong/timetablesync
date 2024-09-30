@@ -59,20 +59,25 @@ pip install -r requirements.txt
 
 ![](./img/email-address.png)
 
+
+3. Open ``automationScript.scpt`` and replace the calendar path with your actual timetable sync folder path
+
+![](./img/automationScript.png)
+
  
-3. Launch the Automator application and choose file type: Application. Click open an existing document and select ``automationApp.app``. Replace the ``/path/to/your/..`` with your actual paths
+4. Launch the Automator application and choose file type: Application. Click open an existing document and select ``automationApp.app``. Replace the ``/path/to/your/..`` with your actual paths
 
 
 ![](./img/automator.png)
 
 
-4. Launch the Calendar app and create a new event on Monday with your preferred start time. Set ``repeat: Every Week`` and ``alert: Custom...``. Select ``Open file``, ``university.ics``, and ``At time of event ``.
+5. Launch the Calendar app and create a new event on Monday with your preferred start time. Set ``repeat: Every Week`` and ``alert: Custom...``. Select ``Open file``, ``university.ics``, and ``At time of event ``.
 
 
 ![](./img/calendar-event.png)
 
 
-5. Set Microsoft Outlook as your default calendar
+6. Set Microsoft Outlook as your default calendar
 
 
 ## Languages, Libraries and Applications Used
