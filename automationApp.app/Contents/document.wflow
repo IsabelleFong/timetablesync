@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>cd /Users/isabelle/Desktop/Automation/Adding_University_Calendar_to_Outlook/
+					<string>cd /path/to/your/folder/Adding_University_Calendar_to_Outlook
 /usr/local/bin/python3 main.py</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -229,9 +229,9 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>cd /Users/isabelle/Desktop/Automation/Adding_University_Calendar_to_Outlook/
+					<string>cd /path/to/your/folder/timetablesync
 
-osascript /Users/isabelle/Desktop/Automation/Adding_University_Calendar_to_Outlook/automationScript.scpt</string>
+osascript /path/to/your/automationScript.scpt</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -400,15 +400,15 @@ osascript /Users/isabelle/Desktop/Automation/Adding_University_Calendar_to_Outlo
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>cd /Users/isabelle/Desktop/Automation/Adding_University_Calendar_to_Outlook/
+					<string>cd /path/to/your/folder/timetablesync
 
-osascript /Users/isabelle/Desktop/Automation/Adding_University_Calendar_to_Outlook/sendEmail.scpt</string>
+osascript /path/to/your/sendEmail.scpt</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
 					<integer>0</integer>
 					<key>shell</key>
-					<string>/bin/zsh</string>
+					<string>/bin/bash</string>
 					<key>source</key>
 					<string></string>
 				</dict>
@@ -512,8 +512,6 @@ osascript /Users/isabelle/Desktop/Automation/Adding_University_Calendar_to_Outlo
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -527,19 +525,19 @@ osascript /Users/isabelle/Desktop/Automation/Adding_University_Calendar_to_Outlo
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>4591F2DF-50FF-4121-A217-305877D96690</key>
-		<dict>
-			<key>from</key>
-			<string>CA69B7CC-8C68-4A31-B047-12C46E0CEFC0 - CA69B7CC-8C68-4A31-B047-12C46E0CEFC0</string>
-			<key>to</key>
-			<string>D804030C-699B-4050-B7A1-7F7A195F8373 - D804030C-699B-4050-B7A1-7F7A195F8373</string>
-		</dict>
-		<key>87F0C466-46D9-42CA-B38A-3D469564C702</key>
+		<key>359149EF-00BD-4807-A671-C7EBD706B7A1</key>
 		<dict>
 			<key>from</key>
 			<string>D804030C-699B-4050-B7A1-7F7A195F8373 - D804030C-699B-4050-B7A1-7F7A195F8373</string>
 			<key>to</key>
 			<string>205EABF4-E2B7-4E98-B762-5BB3517E7121 - 205EABF4-E2B7-4E98-B762-5BB3517E7121</string>
+		</dict>
+		<key>44D29850-8A17-4168-B4C9-A16AB42C5DD3</key>
+		<dict>
+			<key>from</key>
+			<string>CA69B7CC-8C68-4A31-B047-12C46E0CEFC0 - CA69B7CC-8C68-4A31-B047-12C46E0CEFC0</string>
+			<key>to</key>
+			<string>D804030C-699B-4050-B7A1-7F7A195F8373 - D804030C-699B-4050-B7A1-7F7A195F8373</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
