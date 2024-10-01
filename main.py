@@ -27,7 +27,7 @@ header_row = 0
 uni_class_data = soup.find_all("td")
 count = len(uni_class_data) - 6
 
-for i in range(0, count, 6):
+for i in range(0, count+1, 6):
     uni_classes.append({
         "date": uni_class_data[i].get_text(strip=True),
         "time": uni_class_data[i+1].get_text(strip=True),
