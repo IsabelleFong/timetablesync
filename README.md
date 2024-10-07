@@ -10,6 +10,8 @@
 
 > macOs application that syncs your APSpace timetable to Microsoft Outlook
 
+![](./img/TimetableSync.jpg)
+
 ## 🎯 Objective
 TimetableSync is used to automate the process of adding weekly timetables from APSpace Website (Asia Pacific University Application) to Microsoft Outlook and Microsoft Teams on macOS.
 
